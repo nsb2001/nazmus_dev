@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+.clr{
+    clear: both;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    padding: 0;
+    margin: 0;
+    line-height: 0.8;
+}
+
+body{
+    background: white;
+}
+
+.container{
+    padding: 50px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 30px;
+
+}
+.container div{
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 20px;
+    font-weight: 300;
+    border-bottom: 1px rgb(161, 161, 161) solid;
+    width: 500px;
+    cursor: pointer;
+}
+
+.container p{
+    padding: 10px;
+    padding-right: 700px;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+}
